@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuanLyNhanVien</string>
+    <string name="titleDangKi">Đăng Ký</string>
+    <string name="menuItemNhanVien">Nhân Viên</string>
+    <string name="menuItemPhongBan">Phòng Ban</string>
+    <string name="menuItemHeThong">Hệ Thống</string>
+    <string name="menuItemLienHe">Liên Hệ</string>
+</resources>

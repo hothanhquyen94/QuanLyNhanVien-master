@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuNhanVien"
+        android:title="@string/menuItemNhanVien"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuHeThong"
+        android:title="@string/menuItemHeThong"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menuLienLac"
+        android:title="@string/menuItemLienHe"
+       >
+    </item>
+    <item
+        android:id="@+id/menuPhongBan"
+        android:title="@string/menuItemPhongBan"
+        >
+    </item>
+
+
+
+</menu>

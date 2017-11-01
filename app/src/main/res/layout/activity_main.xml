@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.unitec.quanlynhanvien.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG NHẬP"
+            android:textColor="#1e1c1c"
+            android:padding="7dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <EditText
+            android:id="@+id/txtuser"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:hint="Tên Đăng Nhập"
+            android:background="#7dc5d7"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+        <EditText
+            android:layout_width="300dp"
+            android:background="#7dc5d7"
+            android:textSize="15sp"
+            android:hint="Nhập mật khẩu"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:id="@+id/txtpass"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="25dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:id="@+id/btndangnhap"
+            android:layout_weight="1"
+            android:onClick="DangNhap"
+            android:text="ĐĂNG NHẬP" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="25dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnthoat"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect"
+            android:layout_weight="1"
+            android:text="THOÁT" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="25dp" />
+
+    </TableRow>
+</LinearLayout>
